@@ -5,7 +5,7 @@
 Common USGS Parameter Codes
 pCode | shortName
 --- | ---
-00060 | Discharge [ft3/s]
+00060 | Discharge
 
 ## Helpful Links
 - [GitHub for dataRetrieval package](https://github.com/USGS-R/dataRetrieval)
