@@ -2,7 +2,7 @@
 
 ## Helpful Notes for dataRetrieval package
 
-Common USGS Parameter Codes
+**Common USGS Parameter Codes**
 
 pCode | shortName
 ---- | ----
@@ -12,7 +12,7 @@ pCode | shortName
 00045 | Precipitation [in]
 00400 | pH
 
-Commonly used USGS Stat Codes
+**Commonly used USGS Stat Codes**
 
 StatCode | shortName
 --- | ---
