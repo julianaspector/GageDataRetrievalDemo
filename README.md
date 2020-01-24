@@ -12,6 +12,16 @@ pCode | shortName
 00045 | Precipitation [in]
 00400 | pH
 
+Commonly used USGS Stat Codes
+
+StatCode | shortName
+--- | ---
+00001 | Maximum
+00002 | Minimum
+00003 | Maximum
+00008 | Median
+
+
 ## Helpful Links
 - [GitHub for dataRetrieval package](https://github.com/USGS-R/dataRetrieval)
 - [dataRetrieval vignette](https://cran.r-project.org/web/packages/dataRetrieval/vignettes/dataRetrieval.html)
