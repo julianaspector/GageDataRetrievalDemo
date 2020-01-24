@@ -15,5 +15,9 @@ data <- readNWISuv(siteNumber, parameterCd, startDate, endDate)
 data <- renameNWISColumns(data)
 
 
-ggplot(data) + geom_point(aes(x=data$dateTime, y=data$Flow_Inst)) + ylab("Discharge (cfs)") + xlab("Date")
+ggplot(data) + 
+  geom_point(aes(x=data$dateTime, y=data$Flow_Inst)) + 
+  ylab("Discharge (cfs)") + 
+  xlab("Date") +
+  ggtitle("Discharge for Stanislaus River at Ripon for WY 2013")
 
