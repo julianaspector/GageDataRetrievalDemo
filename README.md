@@ -3,13 +3,13 @@
 ## Helpful Notes for dataRetrieval package
 
 Table 2: Common USGS Parameter Codes
-pCode |	shortName 
---- | --- 
-00060 |	Discharge 
-00065	| Gage height 
-00010	| Temperature 
-00045	| Precipitation
-00400	| pH 
+pCode|shortName 
+---|--- 
+00060|Discharge 
+00065|Gage height 
+00010|Temperature 
+00045|Precipitation
+00400|pH 
 
 ## Helpful Links
 - [GitHub for dataRetrieval package](https://github.com/USGS-R/dataRetrieval)
