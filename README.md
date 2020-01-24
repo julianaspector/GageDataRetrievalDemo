@@ -4,7 +4,7 @@
 
 Common USGS Parameter Codes
 pCode | shortName
---- | ---
+---- | ----
 00060 | Discharge
 
 ## Helpful Links
