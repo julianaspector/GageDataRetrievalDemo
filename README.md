@@ -2,7 +2,6 @@
 
 ## Helpful Notes for dataRetrieval package
 
-Common USGS Parameter Codes
 pCode | shortName
 ---- | ----
 00060 | Discharge
