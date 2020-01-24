@@ -4,7 +4,7 @@
 
 Table 2: Common USGS Parameter Codes
 pCode |	shortName 
---- | --- |
+--- | --- 
 00060 |	Discharge 
 00065	| Gage height 
 00010	| Temperature 
