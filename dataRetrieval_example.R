@@ -19,5 +19,5 @@ ggplot(data) +
   geom_point(aes(x=data$dateTime, y=data$Flow_Inst)) + 
   ylab("Discharge (cfs)") + 
   xlab("Date") +
-  ggtitle("Discharge for Stanislaus River at Ripon for WY 2013")
+  ggtitle("Discharge for Stanislaus River at Ripon during WY 2013")
 
