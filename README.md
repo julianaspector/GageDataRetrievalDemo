@@ -1,8 +1,10 @@
 # Demo on dataRetrieval and CDECRetrieve packages for Public Trust Unit Meeting (1/28/2020)
 
 ## Helpful Notes for dataRetrieval package
+
 Common USGS Parameter Codes
 pCode | shortName
+--- | ---
 00060 | Discharge [ft3/s]
 
 ## Helpful Links
