@@ -18,7 +18,7 @@ StatCode | shortName
 --- | ---
 00001 | Maximum
 00002 | Minimum
-00003 | Maximum
+00003 | Mean
 00008 | Median
 
 
