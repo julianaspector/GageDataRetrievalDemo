@@ -1,4 +1,4 @@
-# Demo on dataRetrieval and CDECRetrieve packages for Public Trust Unit Meeting (1/28/2020)
+# Demo on dataRetrieval and CDECRetrieve packages for Public Trust Unit Meeting (1/27/2020)
 
 ## Helpful Notes for dataRetrieval package
 
