@@ -1,4 +1,5 @@
 library(CDECRetrieve)
+library(ggplot2)
 
 MOK_available <- cdec_datasets(station="MOK")
 
