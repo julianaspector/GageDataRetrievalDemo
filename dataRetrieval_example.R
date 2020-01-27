@@ -16,8 +16,25 @@ data <- renameNWISColumns(data)
 
 
 ggplot(data) + 
-  geom_point(aes(x=data$dateTime, y=data$Flow_Inst)) + 
+  geom_point(aes(x=dateTime, y=Flow_Inst)) + 
   ylab("Discharge (cfs)") + 
   xlab("Date") +
   ggtitle("Discharge for Stanislaus River at Ripon during WY 2013")
+
+
+service <- "dv"
+stat_cd <- "00003"
+
+DailyData_available <- whatNWISdata(siteNumber=siteNumber,
+                                    service=service,
+                                    parameterCd=parameterCd)
+
+dailyData <- readNWISdv(siteNumber, parameterCd, startDate, endDate)
+dailyData <- renameNWISColumns(dailyData)
+
+ggplot(dailyData) + 
+  geom_point(aes(x=Date, y=Flow)) + 
+  ylab("Discharge (cfs)") + 
+  xlab("Date") +
+  ggtitle("Daily Average Discharge for Stanislaus River at Ripon during WY 2013")
 
